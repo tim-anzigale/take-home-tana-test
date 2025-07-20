@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Question7_RotateList {
     public static void main(String[] args) {
+        // adding from example
         List<String> stuff = new ArrayList<>(Arrays.asList(
             "ID_A01", "ID_A02", "ID_A03", "ID_A04", "ID_A05", "ID_A06"
         ));

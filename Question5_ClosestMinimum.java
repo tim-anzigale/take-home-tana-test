@@ -2,7 +2,7 @@ public class Question5_ClosestMinimum {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 1, 4, 5, 2};
 
-        // Step 1: Find the minimum value in the array
+        // loop to find the minimum value in the array
         int minValue = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < minValue) {
@@ -10,7 +10,7 @@ public class Question5_ClosestMinimum {
             }
         }
 
-        // Step 2: Find the closest distance between any two positions of the minimum value
+        // finds nearest distance between any two positions of the minimum value
         int lastIndex = -1;
         int minDistance = Integer.MAX_VALUE;
 
@@ -26,7 +26,6 @@ public class Question5_ClosestMinimum {
             }
         }
 
-        // Step 3: Output the result
         System.out.println("Closest distance between minimums: " + minDistance);
     }
 }

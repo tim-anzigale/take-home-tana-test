@@ -26,7 +26,7 @@ public class Question2_UniqueSums {
     public static int countWays(int target, int[] nums) {
         Set<String> found = new HashSet<>();
         
-        // try all possible combinations using bit manipulation (this is how i learned it)
+        // bit manipulation 
         int n = nums.length;
         for (int mask = 1; mask < (1 << n); mask++) {
             int sum = 0;

@@ -4,7 +4,7 @@ import java.util.Collections;
 
 public class Question4_UniqueProduct {
     public static void main(String[] args) {
-        List<String> products = new ArrayList<>();
+        List<String> products = new ArrayList<>(); //adding from example
         products.add("Apple");
         products.add("Computer");
         products.add("Apple");
@@ -14,6 +14,7 @@ public class Question4_UniqueProduct {
         System.out.println("First unique product: " + result);
     }
     
+    //finds the first unique product in the list
     public static String firstUniqueProduct(List<String> products) {
         String firstUnique = null;
         for (String product : products) {
