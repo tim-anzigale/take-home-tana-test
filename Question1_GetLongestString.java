@@ -21,6 +21,7 @@ public class Question1_GetLongestString {
         }
         System.out.println("Valid Strings are: " + String.join(",", results));
         
+        //i filter out the longest string from the results list.
         String longest = getLongestString(results);
         System.out.println("Longest Valid String is: \"" + longest + "\"");
     }
